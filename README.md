@@ -13,22 +13,23 @@ Features:
 2) User Authentication: Supports user registration and login with password hashing. 
 
 3) Chat Functionality: 
-     a)Public chat for all users. 
+     a)Public chat for all users.
+    
      b)Direct messages (DMs) and group chats via invitations. 
 
-4) File Sharing: Send and receive files securely. 
+5) File Sharing: Send and receive files securely. 
 
-5) Tic-Tac-Toe Game: Play Tic-Tac-Toe with other users in real-time. 
+6) Tic-Tac-Toe Game: Play Tic-Tac-Toe with other users in real-time. 
 
-6) GUI: Intuitive PyQt5-based interface with tabs for chats and a file explorer for received files. 
+7) GUI: Intuitive PyQt5-based interface with tabs for chats and a file explorer for received files. 
 
-7) User Management: Displays active users and supports logout functionality. 
+8) User Management: Displays active users and supports logout functionality. 
 
-8) Multiple Clients and Servers: - Accepts multiple clients using threading, Clients are dynamically tracked and listed  
+9) Multiple Clients and Servers: - Accepts multiple clients using threading, Clients are dynamically tracked and listed  
 
-9) Protocol Development: - login handshake, user tracking, message broadcasting, file metadata transfer before file data 
+10) Protocol Development: - login handshake, user tracking, message broadcasting, file metadata transfer before file data 
 
-10) Raw Sockets Handling: - Uses only Python's built-in socket module, handles disconnections and removes dead clients from the list
+11) Raw Sockets Handling: - Uses only Python's built-in socket module, handles disconnections and removes dead clients from the list
 
 System Requirements :-
  1) Want to implement inside Mininet :- Linux System
