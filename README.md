@@ -43,6 +43,10 @@ System Requirements :-
  2) Want to implement outside Mininet :- Windows System
 
 Run Instructions (Linux System):- 
+1) Create a topology by running :- sudo mn --topo=linear,4 --mac
+2) Inside the prompt, type xterm h1 and run python3 server.py
+3) Again type xterm h2 and run python3 gui_client.py
+4) For successive clients follow same procedure based on number of nodes created
 
 Run Instructions (Windows System):- 
  1) python server.py
