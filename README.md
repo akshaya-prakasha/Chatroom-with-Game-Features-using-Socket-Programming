@@ -12,7 +12,8 @@ Features:
 
 2) User Authentication: Supports user registration and login with password hashing. 
 
-3) Chat Functionality: 
+3) Chat Functionality:
+   
      a)Public chat for all users.
     
      b)Direct messages (DMs) and group chats via invitations. 
