@@ -32,6 +32,12 @@ Features:
 
 11) Raw Sockets Handling: - Uses only Python's built-in socket module, handles disconnections and removes dead clients from the list
 
+To Make sure SSL is implemented :-
+
+ 1) Run "openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -nodes" in your terminal . Make sure its run in the same directory in which server.py and gui_client.py are present 
+ 2) This Generates a self-signed certificate and private key
+ 3) Once the command above is run on your terminal , you will get 2 files , they are cert.pem and key.pem
+    
 System Requirements :-
  1) Want to implement inside Mininet :- Linux System
  2) Want to implement outside Mininet :- Windows System
